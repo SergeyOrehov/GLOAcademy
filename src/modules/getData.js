@@ -1,7 +1,6 @@
 const getData = () => {
-   return fetch("https://jsonplaceholder.typicode.com/users/1").then((response) => {
+   return fetch("https://test-352ff-default-rtdb.firebaseio.com/goods.json").then((response) => {
       return response.json();
    });
 };
-
 export default getData;
